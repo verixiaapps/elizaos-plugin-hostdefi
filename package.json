@@ -1,5 +1,5 @@
 {
-  "name": "elizaos-plugin-hostdefi",
+  "name": "@verixiaapps/elizaos-plugin-hostdefi",
   "version": "1.0.0",
   "description": "ElizaOS plugin: token safety grades, pre-graduation signals and authority analysis for Solana/EVM tokens, paid per-call in USDC via x402 (HostDeFi)",
   "type": "module",
