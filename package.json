@@ -1,0 +1,47 @@
+{
+  "name": "elizaos-plugin-hostdefi",
+  "version": "1.0.0",
+  "description": "ElizaOS plugin: token safety grades, pre-graduation signals and authority analysis for Solana/EVM tokens, paid per-call in USDC via x402 (HostDeFi)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@elizaos/core": "^1.7.0"
+  },
+  "dependencies": {
+    "x402-fetch": "^1.2.0"
+  },
+  "devDependencies": {
+    "@elizaos/core": "^1.7.2",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "keywords": [
+    "elizaos",
+    "elizaos-plugin",
+    "x402",
+    "token-risk",
+    "solana",
+    "evm",
+    "defi",
+    "agent-payments"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verixiaapps/elizaos-plugin-hostdefi.git"
+  }
+}
