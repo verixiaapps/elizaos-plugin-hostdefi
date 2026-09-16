@@ -19,6 +19,12 @@ Prices are live in the catalog (`GET /v1/x402/pricing`); exact USDC amounts come
 npm install elizaos-plugin-hostdefi
 ```
 
+Or straight from GitHub (no npm account needed):
+
+```bash
+npm install github:verixiaapps/elizaos-plugin-hostdefi
+```
+
 Add to your agent's plugins:
 
 ```ts
