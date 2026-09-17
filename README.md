@@ -15,6 +15,12 @@ Prices are live in the catalog (`GET /v1/x402/pricing`); exact USDC amounts come
 
 ## Install
 
+Published on npm as `@verixiaapps/elizaos-plugin-hostdefi` (also discoverable via the `elizaos-plugin` keyword):
+
+```bash
+npm install @verixiaapps/elizaos-plugin-hostdefi
+```
+
 Straight from GitHub (no registry account needed — builds on install):
 
 ```bash
@@ -32,12 +38,10 @@ From GitHub Packages (add two lines to your project's `.npmrc` first):
 npm install @verixiaapps/elizaos-plugin-hostdefi
 ```
 
-Plain `npmjs.com` publishing is pending (account signup is owner-side).
-
 Add to your agent's plugins:
 
 ```ts
-import { hostdefiPlugin } from 'elizaos-plugin-hostdefi';
+import { hostdefiPlugin } from '@verixiaapps/elizaos-plugin-hostdefi';
 
 const agent = {
   // ... character config
